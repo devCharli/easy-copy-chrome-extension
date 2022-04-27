@@ -1,13 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+html {
+  height: 600px;
+  width: 700px;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Poppins", sans-serif;
+  height: 600px;
+  width: 700px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  border: 1px solid #dedede;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.save-button {
+  border: none;
+  background: none;
+}
+
+.save-btn {
+  background-color: none;
+  font-size: 30px;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  width: 100%;
+}
+
+.list {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  border: 1px solid rgb(255, 248, 248);
+  border-radius: 6px;
+  padding: 4px 6px;
+  cursor: pointer;
+}
+
+.text:hover {
+  border-color: #c29938;
+}
+
+.text.clicked {
+  border-color: green;
+}
+
+.trash {
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.trash:hover {
+  color: tomato;
 }
