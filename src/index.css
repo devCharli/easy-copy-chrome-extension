@@ -1,25 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-<<<<<<< HEAD
 
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
-=======
-html {
-  height: 600px;
-  width: 700px;
-}
-body {
-  margin: 0;
-  font-family: "Poppins", sans-serif;
->>>>>>> origin/main
   height: 600px;
   width: 700px;
 }
 
 .App {
-<<<<<<< HEAD
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -29,26 +18,13 @@ h1 {
   align-items: center;
   justify-content: center;
   text-align: center;
-=======
-  max-width: 400px;
-  margin: 0 auto;
-}
-
-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
->>>>>>> origin/main
 }
 
 form {
   display: flex;
   align-items: center;
   width: 100%;
-<<<<<<< HEAD
   padding: 0 5px;
-=======
->>>>>>> origin/main
 }
 
 input {
@@ -63,33 +39,22 @@ input:focus {
   outline: none;
 }
 
-<<<<<<< HEAD
 .button {
-=======
-.save-button {
->>>>>>> origin/main
   border: none;
   background: none;
 }
 
-<<<<<<< HEAD
 .button-icon {
-=======
-.save-btn {
->>>>>>> origin/main
   background-color: none;
   font-size: 30px;
   margin-left: 6px;
   cursor: pointer;
 }
 
-<<<<<<< HEAD
 .button:hover {
   color: #5a5a5a;
 }
 
-=======
->>>>>>> origin/main
 ul {
   list-style-type: none;
   padding-left: 0;
@@ -97,7 +62,6 @@ ul {
 }
 
 .list {
-<<<<<<< HEAD
   padding: 5px 10px;
   display: flex;
   justify-content: space-between;
@@ -116,36 +80,8 @@ ul {
 
 .text:hover {
   border-color: #5a5a5a;
-=======
-  padding: 10px 0;
-  display: flex;
-  align-items: center;
-}
-
-.text {
-  border: 1px solid rgb(255, 248, 248);
-  border-radius: 6px;
-  padding: 4px 6px;
-  cursor: pointer;
-}
-
-.text:hover {
-  border-color: #c29938;
->>>>>>> origin/main
 }
 
 .text.clicked {
   border-color: green;
 }
-<<<<<<< HEAD
-=======
-
-.trash {
-  padding: 0 5px;
-  cursor: pointer;
-}
-
-.trash:hover {
-  color: tomato;
-}
->>>>>>> origin/main

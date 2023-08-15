@@ -2,11 +2,7 @@
   "manifest_version": 3,
   "name": "Easy Copy",
   "author": "Charli",
-<<<<<<< HEAD
   "version": "1.0.3",
-=======
-  "version": "1.0.1",
->>>>>>> origin/main
   "description": "Save text that you need to copy often",
   "icons": {
     "16": "charli16.png",
