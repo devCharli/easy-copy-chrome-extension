@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "easy-copy",
+=======
+  "name": "copy",
+>>>>>>> origin/main
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +19,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+<<<<<<< HEAD
     "build": "react-scripts build && zip-build",
+=======
+    "build": "react-scripts build",
+>>>>>>> origin/main
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
