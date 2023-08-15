@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Easy Copy",
+  "author": "Charli",
+  "version": "1.0.3",
+  "description": "Save text that you need to copy often",
+  "icons": {
+    "16": "charli16.png",
+    "64": "charli64.png",
+    "128": "charli128.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "charli128.png"
+  }
+}
